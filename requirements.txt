@@ -1,4 +1,4 @@
-pyTelegramBotAPI
+pip install python-telegram-bot
 faster-whisper
 requests
 Flask
