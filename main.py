@@ -16,7 +16,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Bot token and required channel
-TOKEN = "7648822901:AAFaEh_dZkDvPE_AGSk4NN6nnUMvEy2MkHc"
+TOKEN = "7770743573:AAG1ewm-hyqVIYsFgJGzVz7oOzFnRTvP2TY"
 REQUIRED_CHANNEL = "@transcriberbo"
 
 bot = telebot.TeleBot(TOKEN, threaded=True)
