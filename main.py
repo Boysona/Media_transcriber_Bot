@@ -127,7 +127,8 @@ def send_subscription_message(chat_id):
     )
     bot.send_message(
         chat_id,
-        "This bot only works when you join the channel 👉🏻 @transcriberbo. Please join the channel first, then come back to use the bot.🥰",
+        "🔒 Please join this channel first to use the bot,
+⏳ Come back right after ",
         reply_markup=markup
     )
 
@@ -257,8 +258,7 @@ def status_handler(message):
         f"▫️ TikTok Downloads: {total_tiktok_downloads}\n\n"
         f"⏱️ Total Processing Time: {hours} hours {minutes} minutes {seconds} seconds\n\n"
         "⸻\n\n"
-        "Thanks for using our service! 🙌\n"
-        "See you next time! 💫"
+        "Thanks for using our service! 🙌"
     )
 
     bot.send_message(message.chat.id, text)
