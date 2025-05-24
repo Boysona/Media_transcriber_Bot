@@ -127,8 +127,8 @@ def send_subscription_message(chat_id):
     )
     bot.send_message(
         chat_id,
-        "🔒 Please join this channel first to use the bot,
-⏳ Come back right after"
+        """🔒 Please join this channel first to use the bot,
+⏳ Come back right after"""
         reply_markup=markup
     )
 
@@ -153,24 +153,22 @@ def start_handler(message):
         name = f"@{message.from_user.username}" if message.from_user.username else message.from_user.first_name
         bot.send_message(
             message.chat.id,
-            f"""👋🏻 Welcome dear!
-You’re almost ready to get your voice transcribed for free,
+            f""" 👋🏻 Welcome to Media Transcriber Bot! ✨  
 
-🎙️ Before you send anything, please make sure your recording is:
-• Clear and easy to hear
-• Not cut off or broken
-• Free of background noise
-• Not rushed or very poor quality
+Your go-to tool for transforming media into **precise, easy-to-read text**—quickly and effortlessly!  
 
-📌 Note: The maximum file size allowed is 20MB.
+🔹 Before you begin:  
+• Ensure your audio is clear and free of background noise to minimize transcription errors.  
+• The maximum size of a media file you can upload is: 20MB.  
+• Supported media formats:  
+ ✅ Voice messages  
+ ✅ Video messages  
+ ✅ Audio files  
+ ✅ TikTok video links  
 
-✅ You can send:
-• Voice message
-• Video message
-• Audio file
-• TikTok video link
+💡 Got questions? Need assistance? I’m here to help anytime!  
 
-📄 I’ll transcribe it for you – completely free"""
+Enjoy your experience! 😃🎶 """
         )
 
 @bot.message_handler(commands=['help'])
