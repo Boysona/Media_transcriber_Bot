@@ -128,7 +128,7 @@ def send_subscription_message(chat_id):
     bot.send_message(
         chat_id,
         """🔒 Please join this channel first to use the bot,
-⏳ Come back right after"""
+⏳ Come back right after""",
         reply_markup=markup
     )
 
