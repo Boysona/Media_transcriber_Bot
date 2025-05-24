@@ -166,9 +166,9 @@ Your go-to tool for transforming media into **precise, easy-to-read text**—qui
  ✅ Audio files  
  ✅ TikTok video links  
 
-💡 Got questions? Need assistance? I’m here to help anytime!  
+💡 Got questions? Need assistance? relate ☎️ @botmakerrr!  
 
-Enjoy your experience! 😃🎶 """
+Enjoy our service! 😃"""
         )
 
 @bot.message_handler(commands=['help'])
