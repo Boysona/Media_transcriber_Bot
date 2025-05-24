@@ -153,12 +153,23 @@ def start_handler(message):
         bot.send_message(
             message.chat.id,
             f"""👋🏻 Welcome dear!
-• Send me:
+You’re almost ready to get your voice transcribed for free,
+
+🎙️ Before you send anything, please make sure your recording is:
+• Clear and easy to hear
+• Not cut off or broken
+• Free of background noise
+• Not rushed or very poor quality
+
+📌 Note: The maximum file size allowed is 20MB.
+
+✅ You can send:
 • Voice message
 • Video message
 • Audio file
 • TikTok video link
-• to transcribe for free"""
+
+📄 I’ll transcribe it for you – completely free"""
         )
 
 @bot.message_handler(commands=['help'])
