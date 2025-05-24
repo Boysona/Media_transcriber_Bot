@@ -146,7 +146,6 @@ Your go-to tool for transforming media into **precise, easy-to-read text**—qui
  ✅ Voice messages  
  ✅ Video messages  
  ✅ Audio files  
- ❌ TikTok video links (No longer supported)
 
 💡 Got questions? Need assistance? relate ☎️ @botmakerrr!  
 
