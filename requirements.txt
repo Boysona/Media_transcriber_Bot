@@ -1,5 +1,7 @@
-pyTelegramBotAPI
-faster-whisper
+Flask==3.0.2
+pyTelegramBotAPI==4.14.0
+yt-dlp==2024.04.09
+faster-whisper==0.10.0
 requests
-Flask
-yt_dlp 
+Pillow
+jabavnanbabajvs
