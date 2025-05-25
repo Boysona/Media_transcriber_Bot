@@ -4,4 +4,4 @@ yt-dlp
 faster-whisper
 requests
 Pillow
-
+imageio-ffmpeg
