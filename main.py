@@ -30,8 +30,9 @@ try:
     )
     # Dejinta amarrada /start iyo /help
     commands = [
-        telebot.types.BotCommand("/start", "Begin using the bot"),
-        telebot.types.BotCommand("/help", "Get help and instructions")
+        telebot.types.BotCommand("/start", "👋Get a welcome message and
+info."),
+        telebot.types.BotCommand("/help", "❓Get information on how to use the bot.")
     ]
     bot.set_my_commands(commands)
 except Exception as e:
