@@ -1,7 +1,8 @@
-Flask
+
 pyTelegramBotAPI
+Flask
 yt-dlp
 faster-whisper
-requests
-Pillow
 imageio-ffmpeg
+requests
+
