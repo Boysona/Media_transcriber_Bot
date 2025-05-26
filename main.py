@@ -76,7 +76,7 @@ total_processing_time = 0  # in seconds
 processing_start_time = None
 
 # Gemini API Key
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY" # NOTE: Replace with your actual Gemini API key.
+GEMINI_API_KEY = "AIzaSyAto78yGVZobxOwPXnl8wCE9ZW8Do2R8HA" # NOTE: Replace with your actual Gemini API key.
 # It's highly recommended to use environment variables for API keys in a production environment.
 
 def ask_gemini(user_id, user_message):
