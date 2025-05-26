@@ -3,3 +3,4 @@ faster-whisper
 requests
 Flask
 yt-dlp 
+imageio-ffmpeg
