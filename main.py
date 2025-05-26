@@ -151,7 +151,7 @@ def set_bot_info():
         "I can transcribe audio/video to text and download videos from links."
     )
 
-    bot.set_my_description(
+#    bot.set_my_description(
         """Hello! I'm your versatile media bot.
         
 Here's what I can do:
