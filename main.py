@@ -886,7 +886,6 @@ def handle_social_video_url(msg):
             os.remove(video_path)
 
 def download_video_any(url):
-    """Downloads video from any supported social media URL using yt_dlp."""
     unique_id = str(uuid.uuid4())
     output_path = os.path.join(DOWNLOAD_DIR, f"{unique_id}.mp4")
     ydl_opts = {
