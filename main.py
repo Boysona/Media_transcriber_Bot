@@ -19,7 +19,7 @@ from io import BytesIO
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Bot tokens and configurations
-BOT_TOKEN = "7770743573:AAHDlDTlactC7KU2L6nT6bzW9ueDuIp0p4Q"
+BOT_TOKEN = "7770743573:AAHHnK_Ameb8GkqgvK3LQUp3l0dN3njecN4"
 ADMIN_ID = 5978150981
 WEBHOOK_URL = "https://media-transcriber-bot.onrender.com"
 GEMINI_API_KEY = "AIzaSyAto78yGVZobxOwPXnl8wCE9ZW8Do2R8HA" # Replace with your actual Gemini API key.
