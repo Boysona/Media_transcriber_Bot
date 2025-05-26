@@ -887,10 +887,10 @@ def handle_social_video_url(msg):
 
 def download_video_any(url):
     unique_id = str(uuid.uuid4())
-    output_path = os.path.join(DOWNLOAD_DIR, f"{unique_id}.mp4")
+    output_path = os.path.join(DOWNLOAD_DIR, f"{unique_id}.best")
     ydl_opts = {
-        'format': 'bestvideo[ext=mp4]+bestaudio/best[ext=mp4]/best',
-        'merge_output_format': 'mp4',
+        'format': 'bestvideo[ext=best]+bestaudio/best[ext=best]/best',
+        'merge_output_format': 'best',
         'outtmpl': output_path,
         'quiet': True,
         'noplaylist': True,
