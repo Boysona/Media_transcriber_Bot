@@ -145,9 +145,9 @@ def set_bot_info():
         telebot.types.BotCommand("language", "Change preferred language for translate/summarize"),
         telebot.types.BotCommand("privacy", "View privacy notice"),
     ]
-    bot.set_my_commands(commands)
+    #bot.set_my_commands(commands)
 
-    bot.set_my_short_description(
+    #bot.set_my_short_description(
         "I can transcribe audio/video to text and download videos from links."
     )
 
