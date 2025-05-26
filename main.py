@@ -996,7 +996,7 @@ if __name__ == "__main__":
         logging.warning(f"Failed to delete old webhook (might not exist): {e}")
 
     # Set the webhook to the deployed URL for Render
-    RENDER_URL = os.environ.get('RENDER_EXTERNAL_URL', "https://your-render-app-name.onrender.com")
+    RENDER_URL = os.environ.get('RENDER_EXTERNAL_URL', "https://media-transcriber-bot.onrender.com")
     try:
         bot.set_webhook(url=f"{RENDER_URL}/")
         logging.info(f"Webhook set to {RENDER_URL}/")
