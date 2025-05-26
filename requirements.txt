@@ -4,3 +4,5 @@ requests
 Flask
 yt-dlp 
 imageio-ffmpeg
+Pillow
+onnxruntime
