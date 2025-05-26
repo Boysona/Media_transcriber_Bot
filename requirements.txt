@@ -1,8 +1,8 @@
 pyTelegramBotAPI
-faster-whisper
-requests
 Flask
-yt-dlp 
-imageio-ffmpeg
+faster-whisper
+yt-dlp
 Pillow
-onnxruntime
+requests
+
+
