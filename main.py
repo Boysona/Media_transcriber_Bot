@@ -128,7 +128,8 @@ def start_handler(message):
         bot.send_message(message.chat.id, "Admin Panel", reply_markup=keyboard)
     else:
         # Halkan waxaan ku qeexnay display_name si sax ah
-        display_name = f"@{message.from_user.username}" if message.from_user.username else message.from_user.first_name
+               display_name = message.from_user.first_name if message.from_user.first_name else f"@{message.from_user.username}"
+
         bot.send_message(
             message.chat.id,
             f"""👋🏻 Welcome dear {display_name}!
