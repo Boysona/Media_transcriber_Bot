@@ -675,6 +675,6 @@ if __name__ == "__main__":
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
     set_bot_info()
     bot.delete_webhook()
-    bot.set_webhook(url="https://media-transcriber-bot.onrender.com")
+    bot.set_webhook(url="https://media-transcriber-bot-hzlk.onrender.com")
     app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 8080)))
 
