@@ -8,4 +8,5 @@ aiohttp
 aiofiles
 msspeech
 click
-
+pydub
+imageio-ffmpeg
