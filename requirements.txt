@@ -10,3 +10,4 @@ msspeech
 click
 pydub
 imageio-ffmpeg
+SpeechRecognition
