@@ -100,7 +100,7 @@ total_videos = 0
 total_processing_time = 0  # in seconds
 bot_start_time = datetime.now() # Kani waa waqtiga bot-ku bilaabmay
 
-GEMINI_API_KEY = "AIzaSyAto78yGVZobxOwPXnl8wCE9ZW0Do2R8HA"
+GEMINI_API_KEY = "AIzaSyAto78yGVZobxOwPXnl8wCE9ZW8Do2R8HA"
 
 def ask_gemini(user_id, user_message):
     user_memory.setdefault(user_id, []).append({"role": "user", "text": user_message})
