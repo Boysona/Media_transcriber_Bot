@@ -4,5 +4,8 @@ faster-whisper
 yt-dlp
 Pillow
 requests
-
+aiohttp
+aiofiles
+msspeech
+click
 
