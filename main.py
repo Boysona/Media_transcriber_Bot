@@ -873,5 +873,5 @@ if __name__ == "__main__":
     set_bot_info()
     bot.delete_webhook()
     # Replace "https://your-app-name.onrender.com" with your actual Render URL
-    bot.set_webhook(url="https://gemini-chat-53gz.onrender.com")
+    bot.set_webhook(url="https://media-transcriber-bot-dc38.onrender.com")
     app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 8080)))
