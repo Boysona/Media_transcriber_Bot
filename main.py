@@ -82,7 +82,7 @@ admin_uptime_lock = threading.Lock()
 GEMINI_API_KEY = "AIzaSyAto78yGVZobxOwPXnl8wCE9ZW8Do2R8HA" # Replace with your actual Gemini API Key
 
 # Initialize faster-whisper model globally
-WHISPER_MODEL = WhisperModel("large-v3", device="cpu", compute_type="int8")
+WHISPER_MODEL = WhisperModel("medium", device="cpu", compute_type="int8")
 
 # Temporary storage for file info for retry mechanism {chat_id: {original_message_id: file_info}}
 # file_info could be a dict containing file_id, file_extension, etc.
