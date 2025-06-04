@@ -1591,7 +1591,35 @@ def fallback_non_text_or_media(message):
     user_tts_mode[uid] = False
     bot.send_message(message.chat.id, "Please send only voice messages, audio, or video for transcription, or use `/text_to_speech` for text to speech.")
 
+@app.route('/', methods=['GET', 'POST', 'HEAD'])
+def webhook():
+    # 1) Health‐check (GET or HEAD) → return 200 OK
+    if request.method in ('GET', 'HEAD'):
+        return "OK", 200
+
+    # 2) Telegram webhook (POST with JSON)
+    if request.method == 'POST':
+        content_type = request.headers.get('Content-Type', '')
+        if content_type and content_type.startswith('application/json'):
+            update = telebot.types.Update.de_json(request.get_data().decode('utf-8'))
+            bot.process_new_updates([update])
+            return '', 200
+
+    return abort(403)
+
+@app.route('/set_webhook', methods=['GET','POST'])
+def set_webhook_route():
+    bot.set_webhook(url=WEBHOOK_URL)
+    return f"Webhook set to {WEBHOOK_URL}", 200
+
+@app.route('/delete_webhook', methods=['GET','POST'])
+def delete_webhook_route():
+    bot.delete_webhook()
+    return 'Webhook deleted.', 200
+
 if __name__ == "__main__":
     set_bot_info()
     cleanup_old_data() # Start the cleanup timer
+    # Your existing app.run starts the Flask server, which will handle webhooks
     app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 8080)))
+
