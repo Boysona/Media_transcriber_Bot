@@ -454,7 +454,9 @@ def send_subscription_message(chat_id):
     )
     bot.send_message(
         chat_id,
-        "🚫 This bot only works if you’ve joined our official channel. Please join to continue using the bot.",
+        "🥺 𝗦𝗼𝗿𝗿𝘆 𝗱𝗲𝗮𝗿…
+🔰 𝗣𝗹𝗲𝗮𝘀𝗲 𝗷𝗼𝗶𝗻 𝘁𝗵𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 @transcriberbo 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁
+‼️ 𝗔𝗳𝘁𝗲𝗿 𝗷𝗼𝗶𝗻𝗶𝗻𝗴,𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗲 using the bot.",
         reply_markup=markup,
         disable_web_page_preview=True
     )
@@ -618,7 +620,7 @@ def status_handler(message):
     text = (
         "📊 Bot Statistics\n\n"
         "🟢 **Bot Status: Online**\n"
-        f"⏳ Uptime: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds\n\n"
+        f"⏱️ last updated this Bot: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds\n\n"
         "👥 User Statistics\n"
         f"▫️ Total Users Today: {active_today}\n"
         f"▫️ Total Registered Users: {len(user_data)}\n\n"
