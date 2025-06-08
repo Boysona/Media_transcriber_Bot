@@ -4,7 +4,7 @@ import telebot
 
 # ===== STATIC CONFIG =====
 BOT_TOKEN = "7770743573:AAHHnK_Ameb8GkqgvK3LQUp3l0dN3njecN4"  # ← Ku beddel token-kaaga
-WEBHOOK_URL = "https://media-transcriber-bot-sal5.onrender.com/"  # ← Ku beddel URL sax ah (HTTPS)
+WEBHOOK_URL = "https://media-transcriber-bot-u5b3.onrender.com/"  # ← Ku beddel URL sax ah (HTTPS)
 
 bot = telebot.TeleBot(BOT_TOKEN)
 app = Flask(__name__)
