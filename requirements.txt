@@ -1,4 +1,8 @@
 pyTelegramBotAPI
+requests
+Flask
+gunicorn
+pyTelegramBotAPI
 Flask
 faster-whisper
 yt-dlp
@@ -11,3 +15,8 @@ click
 pydub
 imageio-ffmpeg
 SpeechRecognition
+firebase-admin
+pytesseract
+pyacoustid
+pymongo
+assemblyai
