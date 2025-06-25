@@ -10,7 +10,7 @@ from telebot import types
 # ======= API Tokens & Config =======
 BOT_TOKEN = "7770743573:AAHHnK_Ameb8GkqgvK3LQUp3l0dN3njecN4"
 ASSEMBLYAI_API_KEY = "6dab0a0669624f44afa50d679242e473"
-WEBHOOK_URL = "https://spam-remover-bot-mihj.onrender.com/"
+WEBHOOK_URL = "https://media-transcriber-bot-67hc.onrender.com/"
 ADMIN_ID = 5978150981 # Your specified admin ID
 
 # ======= MongoDB Setup =======
