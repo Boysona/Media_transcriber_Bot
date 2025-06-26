@@ -1,4 +1,4 @@
-jajabbw
+bot
 
 
 import logging
