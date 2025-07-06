@@ -27,7 +27,7 @@ logging.basicConfig(
 )
 
 # --- BOT CONFIGURATION (Using Media Transcriber Bot's Token and Webhook) ---
-TOKEN = "7790991731:AAGiX824l_3PbGS5ZiQTuHIeRQX71JLTa3o"  # <-- your bot token
+TOKEN = "7790991731:AAFgEjc6fO-iTSSkpt3lEJBH86gQY5nIgAw"  # <-- your bot token
 ADMIN_ID = 5978150981  # <-- admin Telegram ID
 WEBHOOK_URL = "https://media-transcriber-bot-67hc.onrender.com"  # <-- your Render URL (Make sure this is correct and unique for your bot 1)
 
