@@ -238,7 +238,7 @@ def generate_main_menu():
     buttons = [
         "🎤 Media Language", "🔊 Text-to-Speech",
         "🌐 Translate Language", "📝 Summary Language",
-        "👤 User Info","/status", "ℹ️ Help"
+        "👤 User Info",""ℹ️ Help"
     ]
     markup.add(*buttons)
     return markup
