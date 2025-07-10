@@ -236,7 +236,7 @@ def generate_main_menu():
     """Create modern main menu with ReplyKeyboardMarkup"""
     markup = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     buttons = [
-        "🎤 Media Language", "🔊 Text-to-Speech",
+        "🎤 transcription Language", "🔊 Text-to-voice ",
         "🌐 Translate Language", "📝 Summary Language",
         "👤 User Info", "ℹ️ Help"
     ]
@@ -833,7 +833,7 @@ def cmd_userinfo(message):
         f"📝 Summary Language: `{summary_lang}`\n\n"
         "🔊 **TTS Settings**\n"
         f"🗣️ Voice: `{tts_voice}`\n"
-        f"🎚️ Pitch: `{tts_pitch}`\n"
+        f"🎙️ Pitch: `{tts_pitch}`\n"
         f"⏩ Rate: `{tts_rate}`"
     )
     
