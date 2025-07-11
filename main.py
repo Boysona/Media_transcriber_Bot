@@ -746,10 +746,16 @@ def start_handler(message):
             admin_uptime_message[ADMIN_ID]['thread'] = uptime_thread
     else:
         welcome_msg = (
-            "🌟 **Welcome to Media Transcriber Bot!**\n\n"
-            "I can transcribe audio/video, translate text, summarize content, "
-            "and convert text to speech.\n\n"
-            "Use the menu below to get started:"
+            """Hello! 👋 I’m MediaTo Text Bot.
+
+I help you save time by transcribing, summarizing, and translating voice messages, audio clips, and short video notes into text. Simply send or forward the message to me, and I’ll take care of the rest.
+
+I also convert text into audio—for free! All my services are 100% free.
+
+Send /help for more information, or use the button below 👇 to adjust your settings.
+
+👉 Add me to your group
+:"""
         )
         bot.send_message(
             message.chat.id,
