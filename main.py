@@ -313,7 +313,7 @@ def generate_main_menu():
         "🎤 Set Lang STT", "🔊 Set lang TTS",
         "🌐 Set lang translate", "📝 Set lang summarize",
         "👤 User Info", "ℹ️ Help",
-        "🗣️ Voice Pitch", "⏩ Voice Rate", "📊 Status"
+        "🗣️ Voice Pitch", "⏩ Voice Rate", "/status"
     ]
     # Add buttons in rows of 2
     for i in range(0, len(buttons), 2):
