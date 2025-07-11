@@ -20,3 +20,8 @@ pytesseract
 pyacoustid
 pymongo
 assemblyai
+python-telegram-bot
+pytube
+Flask
+requests
+gunicorn
