@@ -2419,10 +2419,10 @@ def set_bot_commands():
         BotCommand("text_to_speech", "Set Text to voice language & voice "),
         BotCommand("voice_pitch", "Adjust voice pitch"),
         BotCommand("voice_rate", "Adjust voice speed"), # NEW command
-        BotCommand("help", "How to use the bot"),
+        #BotCommand("help", "How to use the bot"),
         BotCommand("privacy", "Read privacy notice"),
-        BotCommand("translate", "Translate a replied-to transcription"),
-        BotCommand("summarize", "Summarize a replied-to transcription")
+        #BotCommand("translate", "Translate a replied-to transcription"),
+        #BotCommand("summarize", "Summarize a replied-to transcription")
     ]
     try:
         bot.set_my_commands(commands)
