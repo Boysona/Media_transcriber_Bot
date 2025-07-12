@@ -96,7 +96,7 @@ user_memory = {}
 # LANGUAGES CONFIGURATION (AUTONYMS)
 # ========================================
 LANGUAGES = {
-    "Auto ⚙️": "auto",
+    #"Auto ⚙️": "auto",
     "🇺🇸 English": "en",
     "🇸🇦 العربية": "ar",
     "🇪🇸 Español": "es",
@@ -324,10 +324,10 @@ def generate_main_menu():
     """Create modern main menu with 3x3 grid layout"""
     markup = ReplyKeyboardMarkup(resize_keyboard=True, row_width=3)
     buttons = [
-        "🎤 Transcription", "🔊 Voice Settings", 
+        "🔊 Voice Settings", 
         "🌐 Translation", "📝 Summarization",
         "👤 My Profile", "ℹ️ Help Center",
-        "⚙️ Language", "📊 Status", "➕ Features"
+        "⚙️ Language", "📊 Status", "
     ]
     markup.add(*buttons)
     return markup
