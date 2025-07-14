@@ -584,8 +584,8 @@ def start_handler(message):
         )
         
         # Add "Menu" button
-        markup.add(
-            InlineKeyboardButton("📝 Menu", callback_data="show_main_menu")
+        #markup.add(
+            #InlineKeyboardButton("📝 Menu", callback_data="show_main_menu")
         )
         
         bot.send_message(
