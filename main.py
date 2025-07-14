@@ -618,17 +618,17 @@ def show_main_menu_handler(call):
 📚 *After transcription, you can:*
  •  Tap *Translate* to convert it into your preferred language.
  •  Tap *Summarize* to get a concise overview.
-
-⚙️ *Commands:*
- •  /lange` - Set the language for transcribing your media.
- •  /trane` - Set your preferred language for translations.
- •  /sumy` - Set your preferred language for summaries.
- •  /voice` - Convert text to speech. Pick a language and voice.
- •  /pitch` - Adjust the pitch of the generated voice.
- •  /rate` - Adjust the speed of the generated voice.
- •  /help` - Get detailed instructions on how to use me.
- •  /privacy` - Read my privacy policy.
- •  /status` - Check bot's current statistics.
+ 
+ ⚙️ *Commands:*
+ •  `/lange` - Set the language for transcribing your media.
+ •  `/trane` - Set your preferred language for translations.
+ •  `/sumy` - Set your preferred language for summaries.
+ •  `/voice` - Convert text to speech. Pick a language and voice.
+ •  `/pitch` - Adjust the pitch of the generated voice.
+ •  `/rate` - Adjust the speed of the generated voice.
+ •  `/help` - Get detailed instructions on how to use me.
+ •  `/privacy` - Read my privacy policy.
+ •  `/status` - Check bot's current statistics
 
 ❓ If you need assistance, please contact @user33230.
 """
