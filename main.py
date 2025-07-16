@@ -572,7 +572,7 @@ def start_handler(message):
             "Your ultimate tool for converting spoken words into text, translating, summarizing, "
             "and even turning text back into natural-sounding speech. I can process voice messages, "
             "audio, and video files up to 20MB with high accuracy.\n\n"
-            "Ready to get started? Sand me audio voice massage video to transcribe or sand me text ged ai voice:"
+            "Ready to get started? Send me an audio, voice message, or video to transcribe. Or send me text to generate AI voice Before you send your audio, voice message, video, or text, please select your transcription and text-to-audio language & voice using /lange and /voice:"
         )
         
         # Create a more visually appealing keyboard
