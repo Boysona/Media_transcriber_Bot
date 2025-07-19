@@ -1325,7 +1325,7 @@ def callback_set_media_language(call):
         chat_id=call.message.chat.id,
         message_id=call.message.message_id,
         text=f"✅ The transcription language for your media is set to: **{lang_display_name}**\n\n"
-             "Now, please send your voice message, audio file, video note, or video file for me to transcribe. I support media files up to 20MB in size 📞 Need help? Contact @user33230",
+             "Now, please send your voice message, audio file, video note, or video file for me to transcribe. I support media files up to 20MB in size 📞 Need fresh bot for Text to audio ? use 👉🏻 https://t.me/Voice_maker_robot",
         parse_mode="Markdown"
     )
     bot.answer_callback_query(call.id, text=f"Media language set to {lang_display_name}")
@@ -1771,7 +1771,7 @@ def set_bot_commands():
         # REMOVED BotCommand("pitch", "Adjust voice pitch"),
         # REMOVED BotCommand("rate", "Adjust voice speed"),
         BotCommand("help", "How to use the bot"),
-        BotCommand("privacy", "Read privacy notice"),
+        #BotCommand("privacy", "Read privacy notice"),
     ]
     try:
         bot.set_my_commands(commands)
